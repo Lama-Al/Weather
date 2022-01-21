@@ -1,0 +1,27 @@
+*{
+    color:white;
+}
+body{
+    background:linear-gradient(to left,hsl(175, 82%, 43%),#21348a); 
+}
+button{
+   background-color:#74b3c9 ;
+   border:1px solid white;
+   border-radius: 45%; 
+}
+input{
+    color: #000;
+}
+.commonStyle{
+    background-color:rgb(82, 175, 212);
+}
+#search{
+    height:80Px;
+}
+#weather{
+    width:auto;
+    height:200px; 
+    text-align: center;  
+}
+
+    

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+        <title>Weather</title> 
+        <link href="styles.css" rel="stylesheet">
+  </head>
+<body>
+    <div class="commonStyle" id="search">
+      <form>
+        <label> choose your city </label> 
+        <li></li>
+        <input type="text" name="city" id="theCity">
+        <button type="button" onclick="setCity()" >search</button>
+      </form>
+    </div>
+    <li></li> 
+    <li></li>
+    <li></li>
+    <div class="commonStyle"id="weather">
+        <h1 id="x">Weather</h1>
+        <p id='temp'></p>
+        <p id='description'></p>
+        <img src='https:\/\/assets.weatherstack.com\/images\/wsymbols01_png_64\/wsymbol_0008_"+Wicons+".png' alt="icon" id="icon">
+       
+    </div>
+
+    <script type="text/javascript" src="weather.js"> </script>
+   
+</body>
+</html>
+
+
